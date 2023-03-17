@@ -17,4 +17,4 @@ INSERT into RaesRealEstatePhotography VALUES (14, "2D floor plan", 30, 127, 381)
 INSERT into RaesRealEstatePhotography VALUES (15, "3D virtual tour", 175, 108, 18900);
 
 SELECT * FROM RaesRealEstatePhotography
-ORDER BY price desc;
+ORDER BY totalsales desc;
