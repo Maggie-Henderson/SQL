@@ -1,0 +1,20 @@
+CREATE TABLE RaesRealEstatePhotography (id INTEGER PRIMARY KEY, service TEXT, price INTEGER, quantitypurchased INTEGER, totalsales INTEGER);
+
+INSERT into RaesRealEstatePhotography VALUES (1, "small photo package", 130, 302, 39260);
+INSERT into RaesRealEstatePhotography VALUES (2, "large photo package", 160, 149, 23840);
+INSERT into RaesRealEstatePhotography VALUES (3, "drone photos", 90, 162, 14580);
+INSERT into RaesRealEstatePhotography VALUES (4, "drone video", 100, 148, 14800);
+INSERT into RaesRealEstatePhotography VALUES (5, "one minute cinematic video", 200, 214, 42800);
+INSERT into RaesRealEstatePhotography VALUES (6, "two minute cinematic video", 250, 53, 13250);
+INSERT into RaesRealEstatePhotography VALUES (7, "30 second tik tok", 100, 103, 10300);
+INSERT into RaesRealEstatePhotography VALUES (8, "virtual staging", 40, 62, 2480);
+INSERT into RaesRealEstatePhotography VALUES (9, "virtual twilight", 30, 87, 2610);
+INSERT into RaesRealEstatePhotography VALUES (10, "true twilight photos", 75, 107, 8025);
+INSERT into RaesRealEstatePhotography VALUES (11, "headshots", 175, 64, 11200);
+INSERT into RaesRealEstatePhotography VALUES (12, "marketing kit", 20, 246, 4920);
+INSERT into RaesRealEstatePhotography VALUES (13, "agent voice over", 75, 37, 2775);
+INSERT into RaesRealEstatePhotography VALUES (14, "2D floor plan", 30, 127, 381);
+INSERT into RaesRealEstatePhotography VALUES (15, "3D virtual tour", 175, 108, 18900);
+
+SELECT * FROM RaesRealEstatePhotography
+ORDER BY price desc;
